@@ -1,0 +1,51 @@
+body {
+margin: 0;
+background-color: rgb(174, 250, 224) 
+}
+.main-game{
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.genius{
+    display: grid;
+    grid-template-areas: 'roxo rosa'
+    'laranja bege';
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 700px;
+    height: 700px;
+}
+.purple {
+    grid-area: roxo;
+    background-color: purple;
+    border-top-left-radius: 100% ;
+}
+
+.pink {
+    grid-area: rosa;
+    background-color: rgb(255, 96, 176);
+    border-top-right-radius: 100% ;
+}
+
+.orange {
+    grid-area: laranja;
+    background-color: orangered;
+    border-bottom-left-radius: 100% ;
+}
+
+.beige {
+    grid-area: bege;
+    background-color: rgba(248, 203, 56, 0.911);
+    border-bottom-right-radius: 100% ;
+}
+.selected {
+opacity: 0.8;
+
+}
